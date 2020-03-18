@@ -1,10 +1,12 @@
 import React from 'react';
+import Loader from './components/loader';
 
+const message = 'Loading message';
 
 function App() {
   return (
    <>
-        Lorem ipsum
+        <Loader show={true} message={message} />
    </>
   );
 }
