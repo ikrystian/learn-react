@@ -1,5 +1,5 @@
 import React from 'react';
-import Inner from "./inner";
+import Inner from './inner';
 
 const Wrapper = (props) => (
     <>

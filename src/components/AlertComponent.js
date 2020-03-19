@@ -10,10 +10,12 @@ class AlertComponent extends React.Component {
     };
 
     render() {
+
+        const { children, title } = this.props;
         return (
             <>
-                <button onClick={this.toggle}>asd</button>
-                <h1>{ (this.state.isOpen) ? 'true' : 'false'}</h1>
+                <button className={title || 'title'} onClick={this.toggle}>Click to show element</button>
+                {(this.state.isOpen) ? children : null}
             </>
         )
     }
