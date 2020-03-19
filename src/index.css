@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.component {
+    width: 540px;
+    max-width: 100%;
+    margin: 1rem auto;
+    background-color: #dadada;
+    padding: 1rem;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.component__title {
+    margin-bottom: 0.5rem;
+}
+
+.component button {
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+    margin-right: 0.25rem;
+    border: 2px solid transparent;
+}
+
+.component button:focus,
+.component button:hover {
+    border-color: #080808;
+    outline: none;
+}
+
+.component button.active {
+    color: #0099ff;
+    border-color: #0099ff;
+}
