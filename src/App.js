@@ -23,7 +23,7 @@ function App() {
 
             <section className={'component'}>
                 <h2 className={'component__title'}>Wrapper</h2>
-                <p className={'component__description'}>Check console to result of click function</p>
+                <p className={'component__description'}>Check console to see result of click function</p>
                 <div className={'component__content'}>
                     <Wrapper onButtonClick={consoleLog} />
                 </div>
