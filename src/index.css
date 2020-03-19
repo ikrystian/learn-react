@@ -8,7 +8,7 @@
     width: 540px;
     max-width: 100%;
     margin: 1rem auto;
-    background-color: #dadada;
+    background-color: #fafafa;
     padding: 1rem;
     font-family: "Lucida Sans", sans-serif;
 }
@@ -17,11 +17,17 @@
     margin-bottom: 0.5rem;
 }
 
+.component__description {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
 .component button {
     padding: 0.25rem 0.5rem;
     display: inline-block;
     margin-right: 0.25rem;
     border: 2px solid transparent;
+    cursor: pointer;
 }
 
 .component button:focus,

@@ -23,6 +23,7 @@ function App() {
 
             <section className={'component'}>
                 <h2 className={'component__title'}>Wrapper</h2>
+                <p className={'component__description'}>Check console to result of click function</p>
                 <div className={'component__content'}>
                     <Wrapper onButtonClick={consoleLog} />
                 </div>
@@ -32,7 +33,7 @@ function App() {
                 <h2 className={'component__title'}>Alert</h2>
                 <div className={'component__content'}>
                     <AlertComponent title={'Alert title'}>
-                        Some text to hide
+                        Some text to toggle
                     </AlertComponent>
                 </div>
             </section>
